@@ -20,6 +20,9 @@
   }
 }
 
+.jumbotron {
+  background-color: gray;
+}
 .jumbotron h1 {
 
   font-size: 20px!important;
@@ -29,6 +32,7 @@
 
   font-size: 16px!important;
   text-align: center;
+  color: white;
 }
 
 h3 {
@@ -43,6 +47,7 @@ h3 {
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
+  
 }
 
 
@@ -166,7 +171,6 @@ nav ul a {
 body {
   color: #8f8f8f;
   background: white;
-  font-family: "Cardo", serif;
   font-weight: 300;
   -webkit-font-smoothing: antialiased;
 }
@@ -186,9 +190,6 @@ p {
   line-height: 2;
 }
 
-.content {
-  padding: 50px 2% 250px;
-}
 
 .hero {
   position: relative;
@@ -716,12 +717,7 @@ form textarea {
 .material-card.Blue-Grey .mc-btn-action:hover {
   background-color: #263238;
 }
-.material-card.Blue-Grey .mc-footer h4 {
-  color: #263238;
-}
-.material-card.Blue-Grey .mc-footer a {
-  background-color: #263238;
-}
+
 .material-card.Blue-Grey.mc-active .mc-content {
   background-color: #eceff1;
 }
@@ -764,18 +760,11 @@ form textarea {
 .material-card.Pink .mc-btn-action:hover {
   background-color: #880e4f;
 }
-.material-card.Pink .mc-footer h4 {
-  color: #880e4f;
-}
-.material-card.Pink .mc-footer a {
-  background-color: #880e4f;
-}
+
 .material-card.Pink.mc-active .mc-content {
   background-color: #fce4ec;
 }
-.material-card.Pink.mc-active .mc-footer {
-  background-color: #f8bbd0;
-}
+
 .material-card.Pink.mc-active .mc-btn-action {
   border-color: #fce4ec;
 }
@@ -812,18 +801,11 @@ form textarea {
 .material-card.Purple .mc-btn-action:hover {
   background-color: #4a148c;
 }
-.material-card.Purple .mc-footer h4 {
-  color: #4a148c;
-}
-.material-card.Purple .mc-footer a {
-  background-color: #4a148c;
-}
+
 .material-card.Purple.mc-active .mc-content {
   background-color: #f3e5f5;
 }
-.material-card.Purple.mc-active .mc-footer {
-  background-color: #e1bee7;
-}
+
 .material-card.Purple.mc-active .mc-btn-action {
   border-color: #f3e5f5;
 }
@@ -860,18 +842,11 @@ form textarea {
 .material-card.Deep-Purple .mc-btn-action:hover {
   background-color: #311b92;
 }
-.material-card.Deep-Purple .mc-footer h4 {
-  color: #311b92;
-}
-.material-card.Deep-Purple .mc-footer a {
-  background-color: #311b92;
-}
+
 .material-card.Deep-Purple.mc-active .mc-content {
   background-color: #ede7f6;
 }
-.material-card.Deep-Purple.mc-active .mc-footer {
-  background-color: #d1c4e9;
-}
+
 .material-card.Deep-Purple.mc-active .mc-btn-action {
   border-color: #ede7f6;
 }
@@ -908,18 +883,11 @@ form textarea {
 .material-card.Indigo .mc-btn-action:hover {
   background-color: #1a237e;
 }
-.material-card.Indigo .mc-footer h4 {
-  color: #1a237e;
-}
-.material-card.Indigo .mc-footer a {
-  background-color: #1a237e;
-}
+
 .material-card.Indigo.mc-active .mc-content {
   background-color: #e8eaf6;
 }
-.material-card.Indigo.mc-active .mc-footer {
-  background-color: #c5cae9;
-}
+
 .material-card.Indigo.mc-active .mc-btn-action {
   border-color: #e8eaf6;
 }
@@ -956,18 +924,11 @@ form textarea {
 .material-card.Blue .mc-btn-action:hover {
   background-color: #0d47a1;
 }
-.material-card.Blue .mc-footer h4 {
-  color: #0d47a1;
-}
-.material-card.Blue .mc-footer a {
-  background-color: #0d47a1;
-}
+
 .material-card.Blue.mc-active .mc-content {
   background-color: #e3f2fd;
 }
-.material-card.Blue.mc-active .mc-footer {
-  background-color: #bbdefb;
-}
+
 .material-card.Blue.mc-active .mc-btn-action {
   border-color: #e3f2fd;
 }
@@ -1004,18 +965,11 @@ form textarea {
 .material-card.Light-Blue .mc-btn-action:hover {
   background-color: #01579b;
 }
-.material-card.Light-Blue .mc-footer h4 {
-  color: #01579b;
-}
-.material-card.Light-Blue .mc-footer a {
-  background-color: #01579b;
-}
+
 .material-card.Light-Blue.mc-active .mc-content {
   background-color: #e1f5fe;
 }
-.material-card.Light-Blue.mc-active .mc-footer {
-  background-color: #b3e5fc;
-}
+
 .material-card.Light-Blue.mc-active .mc-btn-action {
   border-color: #e1f5fe;
 }
@@ -1055,15 +1009,11 @@ form textarea {
 .material-card.Cyan .mc-footer h4 {
   color: #006064;
 }
-.material-card.Cyan .mc-footer a {
-  background-color: #006064;
-}
+
 .material-card.Cyan.mc-active .mc-content {
   background-color: #e0f7fa;
 }
-.material-card.Cyan.mc-active .mc-footer {
-  background-color: #b2ebf2;
-}
+
 .material-card.Cyan.mc-active .mc-btn-action {
   border-color: #e0f7fa;
 }
@@ -1100,18 +1050,11 @@ form textarea {
 .material-card.Teal .mc-btn-action:hover {
   background-color: #004d40;
 }
-.material-card.Teal .mc-footer h4 {
-  color: #004d40;
-}
-.material-card.Teal .mc-footer a {
-  background-color: #004d40;
-}
+
 .material-card.Teal.mc-active .mc-content {
   background-color: #e0f2f1;
 }
-.material-card.Teal.mc-active .mc-footer {
-  background-color: #b2dfdb;
-}
+
 .material-card.Teal.mc-active .mc-btn-action {
   border-color: #e0f2f1;
 }
@@ -1148,18 +1091,11 @@ form textarea {
 .material-card.Green .mc-btn-action:hover {
   background-color: #1b5e20;
 }
-.material-card.Green .mc-footer h4 {
-  color: #1b5e20;
-}
-.material-card.Green .mc-footer a {
-  background-color: #1b5e20;
-}
+
 .material-card.Green.mc-active .mc-content {
   background-color: #e8f5e9;
 }
-.material-card.Green.mc-active .mc-footer {
-  background-color: #c8e6c9;
-}
+
 .material-card.Green.mc-active .mc-btn-action {
   border-color: #e8f5e9;
 }
@@ -1196,18 +1132,11 @@ form textarea {
 .material-card.Light-Green .mc-btn-action:hover {
   background-color: #33691e;
 }
-.material-card.Light-Green .mc-footer h4 {
-  color: #33691e;
-}
-.material-card.Light-Green .mc-footer a {
-  background-color: #33691e;
-}
+
 .material-card.Light-Green.mc-active .mc-content {
   background-color: #f1f8e9;
 }
-.material-card.Light-Green.mc-active .mc-footer {
-  background-color: #dcedc8;
-}
+
 .material-card.Light-Green.mc-active .mc-btn-action {
   border-color: #f1f8e9;
 }
@@ -1247,15 +1176,11 @@ form textarea {
 .material-card.Lime .mc-footer h4 {
   color: #827717;
 }
-.material-card.Lime .mc-footer a {
-  background-color: #827717;
-}
+
 .material-card.Lime.mc-active .mc-content {
   background-color: #f9fbe7;
 }
-.material-card.Lime.mc-active .mc-footer {
-  background-color: #f0f4c3;
-}
+
 .material-card.Lime.mc-active .mc-btn-action {
   border-color: #f9fbe7;
 }
@@ -1292,18 +1217,11 @@ form textarea {
 .material-card.Yellow .mc-btn-action:hover {
   background-color: #f57f17;
 }
-.material-card.Yellow .mc-footer h4 {
-  color: #f57f17;
-}
-.material-card.Yellow .mc-footer a {
-  background-color: #f57f17;
-}
+
 .material-card.Yellow.mc-active .mc-content {
   background-color: #fffde7;
 }
-.material-card.Yellow.mc-active .mc-footer {
-  background-color: #fff9c4;
-}
+
 .material-card.Yellow.mc-active .mc-btn-action {
   border-color: #fffde7;
 }
@@ -1340,18 +1258,11 @@ form textarea {
 .material-card.Amber .mc-btn-action:hover {
   background-color: #ff6f00;
 }
-.material-card.Amber .mc-footer h4 {
-  color: #ff6f00;
-}
-.material-card.Amber .mc-footer a {
-  background-color: #ff6f00;
-}
+
 .material-card.Amber.mc-active .mc-content {
   background-color: #fff8e1;
 }
-.material-card.Amber.mc-active .mc-footer {
-  background-color: #ffecb3;
-}
+
 .material-card.Amber.mc-active .mc-btn-action {
   border-color: #fff8e1;
 }
@@ -1388,18 +1299,14 @@ form textarea {
 .material-card.Orange .mc-btn-action:hover {
   background-color: #e65100;
 }
-.material-card.Orange .mc-footer h4 {
-  color: #e65100;
-}
+
 .material-card.Orange .mc-footer a {
   background-color: #e65100;
 }
 .material-card.Orange.mc-active .mc-content {
   background-color: #fff3e0;
 }
-.material-card.Orange.mc-active .mc-footer {
-  background-color: #ffe0b2;
-}
+
 .material-card.Orange.mc-active .mc-btn-action {
   border-color: #fff3e0;
 }
@@ -1436,18 +1343,11 @@ form textarea {
 .material-card.Deep-Orange .mc-btn-action:hover {
   background-color: #bf360c;
 }
-.material-card.Deep-Orange .mc-footer h4 {
-  color: #bf360c;
-}
-.material-card.Deep-Orange .mc-footer a {
-  background-color: #bf360c;
-}
+
 .material-card.Deep-Orange.mc-active .mc-content {
   background-color: #fbe9e7;
 }
-.material-card.Deep-Orange.mc-active .mc-footer {
-  background-color: #ffccbc;
-}
+
 .material-card.Deep-Orange.mc-active .mc-btn-action {
   border-color: #fbe9e7;
 }
@@ -1484,12 +1384,7 @@ form textarea {
 .material-card.Brown .mc-btn-action:hover {
   background-color: #3e2723;
 }
-.material-card.Brown .mc-footer h4 {
-  color: #3e2723;
-}
-.material-card.Brown .mc-footer a {
-  background-color: #3e2723;
-}
+
 .material-card.Brown.mc-active .mc-content {
   background-color: #efebe9;
 }
@@ -1532,18 +1427,11 @@ form textarea {
 .material-card.Grey .mc-btn-action:hover {
   background-color: #212121;
 }
-.material-card.Grey .mc-footer h4 {
-  color: #212121;
-}
-.material-card.Grey .mc-footer a {
-  background-color: #212121;
-}
+
 .material-card.Grey.mc-active .mc-content {
   background-color: #fafafa;
 }
-.material-card.Grey.mc-active .mc-footer {
-  background-color: #f5f5f5;
-}
+
 .material-card.Grey.mc-active .mc-btn-action {
   border-color: #fafafa;
 }
@@ -1580,18 +1468,11 @@ form textarea {
 .material-card.Blue-Grey .mc-btn-action:hover {
   background-color: #263238;
 }
-.material-card.Blue-Grey .mc-footer h4 {
-  color: #263238;
-}
-.material-card.Blue-Grey .mc-footer a {
-  background-color: #263238;
-}
+
 .material-card.Blue-Grey.mc-active .mc-content {
   background-color: #eceff1;
 }
-.material-card.Blue-Grey.mc-active .mc-footer {
-  background-color: #cfd8dc;
-}
+
 .material-card.Blue-Grey.mc-active .mc-btn-action {
   border-color: #eceff1;
 }

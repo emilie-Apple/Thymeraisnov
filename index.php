@@ -11,7 +11,7 @@
 
 <!-- Optional theme -->
 <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css" integrity="sha384-rHyoN1iRsVXV4nD0JutlnGaslCJuC7uwjduW9SVrLvRYooPp2bWYgmgJQIXwl/Sp" crossorigin="anonymous">
-
+<link href='http://fonts.googleapis.com/css?family=Montserrat|Cardo' rel='stylesheet' type='text/css'>
 <!-- Latest compiled and minified JavaScript -->
 <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
 <link rel="stylesheet" href="css/style.css">
@@ -21,10 +21,7 @@
 
 <body>
   
-<link href='http://fonts.googleapis.com/css?family=Montserrat|Cardo' rel='stylesheet' type='text/css'>
-<link href='style.css' rel='stylesheet' type='text/css'>
 <script type="text/javascript" src="http://code.jquery.com/jquery-1.9.1.js"></script>
-
   
 <header class="main_h">
 
@@ -73,7 +70,7 @@
   <!-- Wrapper for slides -->
   <div class="carousel-inner" role="listbox">
     <div class="item">
-        <img src="img/paves.jpg" data-color="lightblue" alt="First Image">
+        <img src="img/brique.jpg" data-color="lightblue" alt="First Image">
         <div class="carousel-caption">
             
         </div>
@@ -97,7 +94,7 @@
         </div>
     </div>
     <div class="item">
-        <img src="img/img1.jpg" data-color="tomato" alt="Fifth Image">
+        <img src="img/dalle.jpg" data-color="tomato" alt="Fifth Image">
         <div class="carousel-caption">
            
         </div>
@@ -122,7 +119,8 @@
         <h1>Réalisations</h1>
           
     </div>
-    <!--<div class="row active-with-click">
+    <!--
+    <div class="row active-with-click">
         <div class="col-md-4 col-sm-6 col-xs-12">
             <article class="material-card Red">
                 <h2>
@@ -298,7 +296,6 @@
             </article>
         </div>
 
-        
     </div>
 
 
@@ -327,3 +324,6 @@
 
 </body>
 </html>
+
+    
+
