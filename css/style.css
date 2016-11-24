@@ -384,13 +384,13 @@ a {
 header a,
 footer a {
   float: left;
-  padding: .25em 0;
+  /*padding: .25em 0;*/
 }
 header a {
   width: 100%;
 }
 footer a {
-  width: 50%;;
+  width: 70%;;
 }
 .small {
   font-size: .75em; 
@@ -725,7 +725,7 @@ The following CSS is consistent between example themes and should not be altered
   
     /* can be removed, is here now because of Codepen's iFrame */
   #colorbox[style] {
-top: 2000px !important;
+      top: 2000px !important;
 }
   
     #colorbox {
@@ -737,11 +737,73 @@ top: 2000px !important;
 
 /* Footer */
 
-footer a {
-  color: rgba(255, 255, 255, 0.5);
+.bottom {
+  
+  color: #fff;
+  margin: 0;
+  width: 100%;
+  background: #616566;
+  
 }
 
-footer {
-  background-color: blue;
+.footer-contact {
+  width: 100%;
+  font-size: 9px;
+  padding-bottom: 60px;
+  padding-left: 25px;
+  padding-top: 20px;
 }
+
+footer .bottom-bar {
+  position: relative;
+  font-size: .8em;
+  text-transform: uppercase;
+  background: #4E5152;
+  padding: 25px ;
+}
+
+/* Responsive */
+@media only screen and (max-width: 749px) {
+  
+  
+.footer-contact {
+    
+    padding: 0 20px;
+  }
+
+}
+
+footer p {
+  font-weight: 400;
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+  margin: 10px 0;
+}
+footer a {
+  color: #fff;
+  text-decoration: none;
+  -webkit-transition: color .5s, background .5s;
+  transition: color .4s, background .5s;
+}
+footer a:hover {
+  color: #65c2ed;
+}
+
+/* Misc CSS */
+.clearfix:before, .clearfix:after {
+  content: '\0020';
+  display: block;
+  overflow: hidden;
+  visibility: hidden;
+  width: 0;
+  height: 0;
+  clear: both;
+}
+
+#map {
+ 
+  height: 500px;
+  
+}
+
 

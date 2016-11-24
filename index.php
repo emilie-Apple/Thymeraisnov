@@ -41,7 +41,7 @@
             </ul>
         </nav>
 
-    </div> <!-- / row -->
+    </div> 
 
 </header>
 
@@ -58,7 +58,7 @@
 <div class="row content">
     <h1 class="sec01">Accueil</h1>
     <div id="mycarousel" class="carousel slide" data-ride="carousel">
-  <!-- Indicators -->
+  <!-- Indicateurs -->
   <ol class="carousel-indicators">
     <li data-target="#mycarousel" data-slide-to="0" class="active"></li>
     <li data-target="#mycarousel" data-slide-to="1"></li>
@@ -127,9 +127,9 @@
 <a href="#test10Content" class="group-cbox1 inline" title="Terrasse"><img alt="terrasse" src="img/terrasse1.jpg" class="shadow"></a>
 <a href="#test11Content" class="group-cbox1 inline" title="Tranchée"><img alt="tranchee" src="img/tranchee.jpg" class="shadow"></a>
 <a href="#test12Content" class="group-cbox1 inline" title="Terrasse"><img alt="terrasse" src="img/terrasse3.jpg" class="shadow"></a>
-<!--<a href="#test13Content" class="group-cbox1 inline" title="Lorem ipsum 13"><img alt="" src="http://placehold.it/128x128/" class="shadow"></a>
-<a href="#test14Content" class="group-cbox1 inline" title="Lorem ipsum 14"><img alt="" src="http://placehold.it/128x128/" class="shadow"></a>
-<a href="#test15Content" class="group-cbox1 inline" title="Lorem ipsum 15"><img alt="" src="http://placehold.it/128x128/" class="shadow"></a>-->
+<!--<a href="#test13Content" class="group-cbox1 inline" title="Lorem ipsum 13"><img alt="" src="" class="shadow"></a>
+<a href="#test14Content" class="group-cbox1 inline" title="Lorem ipsum 14"><img alt="" src="" class="shadow"></a>
+<a href="#test15Content" class="group-cbox1 inline" title="Lorem ipsum 15"><img alt="" src="" class="shadow"></a>-->
 
 <div style='display:none'>
   <div id="test1Content" class="inner-overlay-box">
@@ -296,7 +296,7 @@
 
     <div class="media">
       <a href="#" class="img">
-        <img alt="" src="http://placehold.it/384x256/" class="img-inner-window" /></a>
+        <img alt="" src="" class="img-inner-window" /></a>
 
       <div class="hd"><h3>Image 13</h3></div>
       <div class="bd">
@@ -311,7 +311,7 @@
 
     <div class="media">
       <a href="#" class="img">
-        <img alt="" src="http://placehold.it/384x256/" class="img-inner-window" /></a>
+        <img alt="" src="" class="img-inner-window" /></a>
 
       <div class="hd"><h3>Image 14</h3></div>
       <div class="bd">
@@ -326,7 +326,7 @@
 
     <div class="media">
       <a href="#" class="img">
-        <img alt="" src="http://placehold.it/384x256/" class="img-inner-window" /></a>
+        <img alt="" src="" class="img-inner-window" /></a>
 
       <div class="hd"><h3>Image 15</h3></div>
       <div class="bd">
@@ -353,13 +353,52 @@
  
 </form>
 </div>
+<div id="map"></div>
+<footer class="bottom">
+  
+    <div class="footer-contact">
+       <h4>Contact</a></h4>
+       <p><a href="mailto:">fortieryoann@yahoo.fr</a></p>
+       <p><a href="tel:">06 11 31 47 41</a></p>
+       <p>42 rue de la goletterie<br />28170 Tremblay les villages</a></p>
+       <div class="logo"><img src="img/logo.png"></div>
+    </div>
+    
+  <div class="bottom-bar">
+     All Rights Reserved © 2016  | Emilie Chartier <a href="mentionslegales.php">Mentions légales</a>
+  </div>
 
+</footer>
 
-            <footer class="wrapper">     
-              <h4>2016 &copy; <a href="#" target="_blank">Emilie Chartier</a></h4>
-              
-            </footer>
-       
+<script type="text/javascript">
+
+var marker;
+ 
+function initMap() {
+  var map = new google.maps.Map(document.getElementById('map'), {
+    zoom: 13,
+    center: {48.588354, 1.240098 }
+  });
+ 
+  marker = new google.maps.Marker({
+    map: map,
+    draggable: true,
+    animation: google.maps.Animation.DROP,
+    position: {48.588354, 1.240098 }
+  });
+  marker.addListener('click', toggleBounce);
+}
+ 
+function toggleBounce() {
+  if (marker.getAnimation() !== null) {
+    marker.setAnimation(null);
+  } else {
+    marker.setAnimation(google.maps.Animation.BOUNCE);
+  }
+}
+</script>
+            
+<script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBG1v6JpzROzWw5o_NaBgp8h741Xa0_tZA&callback=initMap"async defer></script>
 <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
 <script src='http://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js'></script>
 <script src='https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.5/js/bootstrap.min.js'></script>
