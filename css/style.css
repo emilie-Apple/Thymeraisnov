@@ -749,7 +749,7 @@ The following CSS is consistent between example themes and should not be altered
 .footer-contact {
   width: 100%;
   font-size: 9px;
-  padding-bottom: 60px;
+  padding-bottom: 70px;
   padding-left: 25px;
   padding-top: 20px;
 }
@@ -759,7 +759,7 @@ footer .bottom-bar {
   font-size: .8em;
   text-transform: uppercase;
   background: #4E5152;
-  padding: 25px ;
+  padding: 15px ;
 }
 
 /* Responsive */
@@ -803,7 +803,15 @@ footer a:hover {
 #map {
  
   height: 500px;
+  width: 500px;
+  margin-bottom: 20px;
   
+  
+}
+
+.artisan {
+  float: right;
+  width: 100px;
 }
 
 

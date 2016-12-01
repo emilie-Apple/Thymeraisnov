@@ -44,7 +44,26 @@
     </div> 
 
 </header>
+<!--<style>
+      .map-control {
+        background-color: #fff;
+        border: 1px solid #ccc;
+        box-shadow: 0 2px 2px rgba(33, 33, 33, 0.4);
+        font-family: 'Roboto','sans-serif';
+        margin: 10px;
+        display: none;
+      }
+      /* Display the control once it is inside the map. */
+      #map .map-control { display: block; }
 
+      .selector-control {
+        font-size: 14px;
+        line-height: 30px;
+        padding-left: 5px;
+        padding-right: 5px;
+      }
+    
+</style>-->
 <div class="hero">
 
     <h1><span>Thymerais'nov</span><br>Maçonnerie Générale<br>
@@ -362,29 +381,31 @@
        <p><a href="tel:">06 11 31 47 41</a></p>
        <p>42 rue de la goletterie<br />28170 Tremblay les villages</a></p>
        <div class="logo"><img src="img/logo.png"></div>
+       <img src="img/artisan.jpg" alt="artisan" class="artisan" />
     </div>
     
   <div class="bottom-bar">
-     All Rights Reserved © 2016  | Emilie Chartier <a href="mentionslegales.php">Mentions légales</a>
+     All Rights Reserved © 2016  | Emilie Chartier <a href="mentionslegales.php">Mentions légales</a><br>
+     <em><a href="#">Liens utiles</a></em>
   </div>
 
 </footer>
 
-<script type="text/javascript">
+<script>
 
 var marker;
  
 function initMap() {
   var map = new google.maps.Map(document.getElementById('map'), {
     zoom: 13,
-    center: {48.588354, 1.240098 }
+    center: {lat: 48.588354, lng: 1.240098 }
   });
  
   marker = new google.maps.Marker({
     map: map,
     draggable: true,
     animation: google.maps.Animation.DROP,
-    position: {48.588354, 1.240098 }
+    position: {lat: 48.588354, lng: 1.240098 }
   });
   marker.addListener('click', toggleBounce);
 }
